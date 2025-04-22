@@ -1,0 +1,52 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn {
+  width: 40%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.video-list-container {
+  width: 35%;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+}
+
+.video-player-container {
+  flex: 1;
+  padding: 40px;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: auto;
+}

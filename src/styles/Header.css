@@ -1,0 +1,28 @@
+.interview-header {
+  background-color: #f4a63a; /* orange-like background */
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.interview-left {
+  font-weight: bold;
+  color: #003366; 
+}
+
+.user-name {
+  color: white;
+}
+
+.interview-right {
+  font-weight: bold;
+  color: #003366;
+}
+
+.date {
+  color: white;
+}
